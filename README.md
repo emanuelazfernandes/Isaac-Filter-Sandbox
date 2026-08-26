@@ -67,6 +67,8 @@ Intro
 
 # MDP - Markov Decision Processes
 
+Intro
+
 ## POMDP - Partial Observable MDP
 
 ## RL - Reinforcement Learning
