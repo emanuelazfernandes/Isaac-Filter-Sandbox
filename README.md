@@ -26,15 +26,25 @@ Forma recursiva de um estimador
 
 ## IMM Filter
 
+
+---
+
 # GNC - Guidance, Navigation and Control
 
+Intro
+
 ## Guidance
+
+Intro
 
 ### PN - Proportional Navigation
 
 ### Augmented PN
 
+
 ## Navigation
+
+Intro
 
 ### EKF - Extended Kalman Filter
 
@@ -42,6 +52,8 @@ Forma recursiva de um estimador
 
 
 ## Control
+
+Intro
 
 ### PID - Proportional, Integrative and Derivative Controller
 
@@ -51,5 +63,10 @@ Forma recursiva de um estimador
 
 ### TVC - Thrust Vectoring Control
 
+---
 
+# MDP - Markov Decision Processes
 
+## POMDP - Partial Observable MDP
+
+## RL - Reinforcement Learning
