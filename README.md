@@ -28,3 +28,28 @@ Forma recursiva de um estimador
 
 # GNC - Guidance, Navigation and Control
 
+## Guidance
+
+### PN - Proportional Navigation
+
+### Augmented PN
+
+## Navigation
+
+### EKF - Extended Kalman Filter
+
+### Particle Filter
+
+
+## Control
+
+### PID - Proportional, Integrative and Derivative Controller
+
+### LQR - Optimal Control (Least Squares)
+
+### MPC - Model Predictive Control
+
+### TVC - Thrust Vectoring Control
+
+
+
