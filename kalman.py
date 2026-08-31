@@ -1,3 +1,5 @@
+import numpy as np
+
 def kalman_filter(mean_t_1, covariance_t_1, u_t, z_t):
     """
     mean_t_1       - previous estimate
@@ -7,20 +9,20 @@ def kalman_filter(mean_t_1, covariance_t_1, u_t, z_t):
     """
 
     # State transition matrix (x_t, mean_t) - Matriz de transicao de estado
-    A_t = [[1, 2], [3, 4]]
+    A_t = np.matrix([[1, 2], [3, 4]])
     # Control input matrix - Matriz de entrada de controlo
-    B_t = [[5, 6], [7, 8]]
+    B_t = np.matrix([[5, 6], [7, 8]])
     # Observation matrix - Matriz das observacoes
-    C_t = [[9, 10], [11, 12]]
+    C_t = np.matrix([[9, 10], [11, 12]])
 
     # Process noise covariance - Matriz covariancia do ruido da dinamica (processo)
-    Q_t = [[17, 18], [19, 20]]
+    Q_t = np.matrix([[17, 18], [19, 20]])
     # Measurement/observation noise covariance - Matriz covariancia do ruido das observacoes
-    R_t = [[13, 14], [15, 16]]
+    R_t = np.matrix([[13, 14], [15, 16]])
 
-    I = identity_matrix(2, 2)
-    A_t_transp = transpose(A_t)
-    C_t_transp = transpose(C_t)
+    I = np.identity(2)
+    A_t_transp = np.matrix.transpose(A_t)
+    C_t_transp = np.matrix.transpose(C_t)
 
     ## Filter equations
 
@@ -34,7 +36,7 @@ def kalman_filter(mean_t_1, covariance_t_1, u_t, z_t):
     # 2 - Update step - filtragem
     # Kalman gain update - Matriz ganho de Kalman
     K_t_aux = C_t * covariance_t_est * C_t_transp + R_t
-    K_t_aux_inv = matrix_invert(K_t_aux)
+    K_t_aux_inv = np.linalg.inv(K_t_aux)
     K_t = covariance_t_est * C_t_transp * K_t_aux_inv
     
     # Update estimate
