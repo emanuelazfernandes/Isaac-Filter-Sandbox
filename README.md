@@ -112,13 +112,13 @@ DeepAF - Deep data Association and track Filtering network
 # References
 
 <a id="1">[1]</a> 
-Moreira, Marina, Endre Papp, and Rodrigo Ventura. "Interception of non-cooperative UAVs." 2019 IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR). IEEE, 2019.
+Moreira, M., Papp, E., Ventura, R. "Interception of non-cooperative UAVs." 2019 IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR). IEEE, 2019.
 
-<a id="2">[d]</a> 
+<a id="2">[2]</a> 
 Thrun, S., Burgard, W., Fox, D. "Probabilistic Robotics" MIT Press, 2005
 
-<a id="3">[d]</a> 
+<a id="3">[3]</a> 
 Nunes, F. "Sistemas de Controlo de Trafego: Apontamentos da Cadeira" IST, 2010
 
-<a id="4">[d]</a> 
+<a id="4">[4]</a> 
 Bar-Shalom, Y., Li, X.R., Kirubarajan, T. "Estimation with Applications to Tracking and Navigation: Theory Algorithms and Software" John Wiley & Sons, 2004
