@@ -43,6 +43,12 @@ Intro
 
 ### PN - Proportional Navigation
 
+Pure Proportional Navigation
+
+$\mathbf{a}_{PN} = N_PN \mathbf{v}_I \times {\omega}_{LOS}$
+
+
+
 ### Augmented PN
 
 
@@ -87,3 +93,16 @@ Intro
 
 The IMM algorithm implements multiple estimation filters under a Markov Chain paradigm. Each estimation model under a Markov state assumes a dynamical model, and the final estimate for the noisy observation is a combined weighted estimation of the probability of the underlying models.
 
+#### State of the Art - IMM
+
+##### RFS - Random Finite Sets
+
+Intro
+
+PMBM (Poisson Multi-Bernoulli Mixture filter), bypass traditional heuristics data association.
+
+##### Deep RL and Transformer-Based Tracking
+
+MT3 - Multi-Target Tracking Transformer
+
+DeepAF - Deep data Association and track Filtering network
