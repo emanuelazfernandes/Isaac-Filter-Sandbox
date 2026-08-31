@@ -76,3 +76,14 @@ Intro
 ## POMDP - Partial Observable MDP
 
 ## RL - Reinforcement Learning
+
+---
+
+## Navigation - Extended
+
+### IMM - Interacting Multiple Model
+
+Intro
+
+The IMM algorithm implements multiple estimation filters under a Markov Chain paradigm. Each estimation model under a Markov state assumes a dynamical model, and the final estimate for the noisy observation is a combined weighted estimation of the probability of the underlying models.
+
